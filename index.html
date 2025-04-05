@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova - AI Voice Assistant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+
+    .download-btn {
+      background-color: #00c9a7;
+      color: #fff;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .download-btn:hover {
+      background-color: #008c76;
+    }
+
+    .features {
+      display: grid;
+      gap: 1.5rem;
+      max-width: 900px;
+      margin: 3rem auto;
+      text-align: left;
+    }
+
+    .feature-item {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nova - AI Voice Assistant</h1>
+  <p>Nova is a powerful desktop AI assistant built with Python. Use your voice to open apps, play music, get weather updates, search online, and chat with an AI model like ChatGPT.</p>
+
+  <button class="download-btn" onclick="downloadNova()">Download .exe</button>
+
+  <section class="features">
+    <div class="feature-item">🎙️ Voice Activation - Just say "Nova"</div>
+    <div class="feature-item">🌐 Opens websites & apps via voice</div>
+    <div class="feature-item">🎵 Play local music from your library</div>
+    <div class="feature-item">🔍 Google & YouTube voice search</div>
+    <div class="feature-item">📆 Get current date, time & weather</div>
+    <div class="feature-item">💬 Chat with AI using DeepSeek API</div>
+    <div class="feature-item">🛑 Say "stop" to deactivate Nova</div>
+  </section>
+
+  <footer>
+    Made with ❤️ by NectGenCodde | Open Source on <a href="https://github.com/NextGenCodde/Nova-AI-Voice-Assistant" style="color: #00c9a7;">GitHub</a>
+  </footer>
+
+  <script>
+    function downloadNova() {
+      // Replace the link below with your actual GitHub download link
+      window.open('https://github.com/NextGenCodde/Nova-AI-Voice-Assistant/blob/main/dist/app.exe', '_blank');
+    }
+  </script>
+</body>
+</html>
